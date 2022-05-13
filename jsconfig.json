@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@/components/*": ["components/*"],
+      "@/layouts/*": ["layouts/*"],
+      "@/apollo/*": ["libs/apollo/*"],
+      "@/redux/*": ["libs/redux/*"],
+      "@/graphQL/*": ["libs/graphQL/*"],
+      "@/shared/*": ["libs/shared/*"],
+      "@/utils/*": ["libs/utils/*"],
+      "@/apis/*": ["libs/apis/*"],
+      "@/libs/*": ["libs/*"],
+      "@/styles/*": ["styles/*"],
+      "@/pages/*": ["pages/*"],
+      "@/assets/*": ["../public/assets/*"]
+    },
+    "module": "commonJS",
+    "target": "es6",
+    "jsx": "react"
+  },
+  "exclude": ["node_modules"],
+  "include": ["src/**/*"]
+}
